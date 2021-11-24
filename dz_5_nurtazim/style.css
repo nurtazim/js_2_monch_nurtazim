@@ -1,0 +1,26 @@
+.Counter{
+    display: flex;
+    margin: 0 auto;
+    background-position: center;
+}
+.plus{
+    width: 10%;
+    height: 50px;
+    background:green;
+    font-size: 22px;
+}
+
+.results{
+    width: 10%;
+    height: 50px;
+    background: chocolate;
+    font-size: 22px;
+    text-align: center;
+
+}
+.minus{
+    width: 10%;
+    height: 50px;
+    background: blue;
+    font-size: 22px;
+}
