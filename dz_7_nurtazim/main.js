@@ -22,6 +22,9 @@ class Car extends Transport {
     }
 
     startEngine() {
+        console.log(this.name)
+        console.log(this.mass )
+        console.log(this.sila)
         console.log(this.engine)
     }
 }
@@ -38,11 +41,15 @@ class Lodca extends Transport {
     }
 
     startEngine() {
+        console.log(this.name)
         console.log(this.engine)
+        console.log(this.sila)
+        console.log(this.cach)
     }
 }
 
 
-const lodca = new Lodca("момент", 55, 2.5, 25)
+const lodca = new Lodca("VikaVika", 55, 2.5, 25000)
 console.log(lodca)
 lodca.startEngine()
+
