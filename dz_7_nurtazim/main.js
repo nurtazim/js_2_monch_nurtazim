@@ -6,7 +6,7 @@ class Transport {
     }
 
     startEngine() {
-        console.log(this.engine)
+        console.log("not start")
     }
 }
 
@@ -22,10 +22,7 @@ class Car extends Transport {
     }
 
     startEngine() {
-        console.log(this.name)
-        console.log(this.mass )
-        console.log(this.sila)
-        console.log(this.engine)
+        console.log("start")
     }
 }
 
@@ -41,10 +38,8 @@ class Lodca extends Transport {
     }
 
     startEngine() {
-        console.log(this.name)
-        console.log(this.engine)
-        console.log(this.sila)
-        console.log(this.cach)
+        console.log("start")
+
     }
 }
 
